@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '13.0'
     s.swift_version = '5.0'
     s.source_files = 'Sources/**/*'
-    s.dependency 'Segment', '~> 1.5.11'
+    s.dependency 'AnalyticsSwift', '~> 1.5.11'
     s.dependency 'Firebase', '~> 11.0.0'
   end
