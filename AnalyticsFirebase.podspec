@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author           = { "Segment" => "friends@segment.com" }
     s.source           = { :git => 'git@github.com/sayalideopurkar/analytics-swift-firebase.git', :tag => s.version.to_s }
 
-    s.ios.deployment_target = '13.0'
+    s.ios.deployment_target = '15.0'
     s.swift_version = '5.0'
     s.requires_arc = true
 
@@ -17,9 +17,8 @@ Pod::Spec.new do |s|
     s.static_framework = true
 
     s.dependency 'Segment'
-    s.dependency 'Firebase', '~> 11.0.0'
-    s.dependency 'Firebase/Core','~> 11.0.0'
-    s.dependency 'FirebaseAnalytics', '~> 11.0.0'
+    s.dependency 'FirebaseCore', '>= 11.15.0'
+    s.dependency 'FirebaseAnalytics', '>= 11.15.0'
     s.subspec 'Core' do |core|
         #For users who only want the core Firebase package
      end
