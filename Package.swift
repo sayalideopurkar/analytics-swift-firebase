@@ -8,7 +8,7 @@ let package = Package(
     platforms: [
         .macOS("10.15"),
         .iOS("13.0"),
-        .tvOS("11.0"),
+        .tvOS("13.0"),
         .watchOS("7.1")
     ],
     products: [
@@ -28,7 +28,7 @@ let package = Package(
 		.package(
 			name: "Firebase",
 			url: "https://github.com/firebase/firebase-ios-sdk",
-			from: "10.21.0"
+			from: "11.1.0"
 		)
     ],
     targets: [
