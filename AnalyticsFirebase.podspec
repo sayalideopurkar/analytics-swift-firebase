@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name             = 'AnalyticsFirebase'
     s.module_name      = 'AnalyticsFirebase'
-    s.version          = '1.3.6'
+    s.version          = '1.4.3'
     s.summary          = 'Segment SDK for adding device mode plugin support for Firebase'
     s.homepage         = 'https://github.com/sayalideopurkar/analytics-swift-firebase'
     s.license          = { :type => 'MIT', :file => './LICENSE' }
